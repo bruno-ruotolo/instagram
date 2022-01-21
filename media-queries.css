@@ -1,0 +1,60 @@
+
+
+@media (max-width: 935px){
+    .sidebar {
+        display: none;
+    }
+    .pagina {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cabecalho-icones{
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 614px){
+    .sidebar {
+        display: none;
+    }
+
+    .icone-botao-passar{
+        display: none;
+    }
+
+    .barra-inferior-mobile{
+        display: initial;
+    }
+
+    .icones-centro{
+        display: none;
+    }
+    .icone-mobile{
+        display: initial;
+        position: absolute;
+        right: 9px;
+        
+    }
+
+    .logo-instagram{
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    .icone-desktop{
+        display: none;
+    }
+
+    .linha-separadora{
+        display: none;
+    }
+    .cabecalho-faixa{
+        min-width: 614px;
+    }
+    .cabecalho-icones{
+        max-width: 95%;
+    }
+}
