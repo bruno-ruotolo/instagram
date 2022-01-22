@@ -115,7 +115,6 @@ background-color:  #E5E5E5;
     justify-content: space-between;
     width: fit-content;
     height: 100%;
-    background-color: coral;
     top:88px;
 }
 
@@ -196,14 +195,14 @@ background-color:  #E5E5E5;
 
 /* ------SIDEBAR------*/
 .sidebar {
-    background-color: red;
-    right: 300px;
+    position: sticky;
+    top:88px;
     width: 293px;
     height: 450px;
     display: flex;
     flex-direction: column;
     margin-left: 30px;
-    top:0;
+    
 }
 
 .perfil {
