@@ -9,35 +9,48 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="media-queries.css">
 
 </head>
 
 <body>
+
+    <!-- Cabeçalho de navegação -->
     <div class="cabecalho-faixa">
         <div class="cabecalho-icones">
+
+            <!-- Icones Esquerda -->
             <div class="icones-esquerda">
                 <ion-icon class="icones" name="logo-instagram"></ion-icon>
                 <div class="linha-separadora"></div>
                 <img class="logo-instagram" src="imagens/logo.png" alt="logo">
             </div>
+
+            <!-- Barra de Pesquisa -->
             <div class="icones-centro">
                 <div class="barra-pesquisa">
                     <p>Pesquisar</p>
                 </div>
             </div>
+
+            <!-- Icones Direita -->
             <div class="icones-direita">
                 <ion-icon class="icones icone-mobile" name="paper-plane-outline"></ion-icon>
                 <ion-icon class="icones icone-desktop" name="compass-outline"></ion-icon>
                 <ion-icon class="icones icone-desktop" name="heart-outline"></ion-icon>
                 <ion-icon class="icones icone-desktop" name="person-outline"></ion-icon>
             </div>
+
         </div>
 
     </div>
+
+    <!-- Pagina: Posts, Sidebar, Navegação mobile -->
     <div class="pagina">
+
+        <!-- Posts e Stories -->
         <div class="feed">
             <div class="stories">
                 <ion-icon class="icone-botao-passar" name="chevron-forward-circle"></ion-icon>
@@ -111,11 +124,13 @@
                                 alt="background do stories">
                             <img class="img-stories" src="imagens/macaco.png" alt="macaco">
                         </div>
-                        <p class="texto-stories">mamaco</p>
+                        <p class="texto-stories">buguildo</p>
                     </div>
                 </div>
 
             </div>
+
+            <!-- Post formiga -->
             <div class="posts">
                 <div class="titulo-post">
                     <div class="titulo-post-esquerda">
@@ -124,6 +139,7 @@
                     </div>
                     <ion-icon class="tres-pontos" name="ellipsis-horizontal"></ion-icon>
                 </div>
+
                 <img class="imagem-do-post" src="imagens/post-formigs.png" alt="formiguinhas" />
                 <div class="icones-reacao">
                     <div class="icones-reacao-esquerda">
@@ -135,11 +151,36 @@
                         <ion-icon class="icones" name="bookmark-outline"></ion-icon>
                     </div>
                 </div>
+
                 <div class="texto-curtido">
                     <img class="img-curtido-por" src="imagens/frog.png" alt="frogy">
                     <p>Curtido por <strong> sapônio </strong>e <strong>outras 50.354 pessoas</strong></p>
                 </div>
+
+                <div class="comentarios">
+                    <div class="comentarios-texto">
+                        <p><strong>tamandueba</strong> bateu até uma fominha 😋</p>
+                        <p><small>6 h</small></p>
+                    </div>
+                    <ion-icon class="icone-comentario" name="heart-outline"></ion-icon>
+                </div>
+
+                <div class="comentarios">
+                    <div class="comentarios-texto">
+                        <p><strong>elefante</strong> conhece a fu?</p>
+                        <p><small>4 h</small></p>
+                    </div>
+                    <ion-icon class="icone-comentario" name="heart-outline"></ion-icon>
+                </div>
+
+                <div class="adicione-comentario">
+                    <ion-icon class="icone-input-comentario" name="happy-outline"></ion-icon>
+                    <input class="input-comentario" type="text" placeholder="Adicione um comentário...">
+                    <p class="texto-publicar-comentario"> Publicar </p>
+                </div>
             </div>
+
+            <!-- Post raposa -->
             <div class="posts">
                 <div class="titulo-post">
                     <div class="titulo-post-esquerda">
@@ -163,7 +204,29 @@
                     <img class="img-curtido-por" src="imagens/spider.png" alt="spider">
                     <p>Curtido por <strong> spaidy </strong>e <strong>outras 105.256 pessoas</strong></p>
                 </div>
+                <div class="comentarios">
+                    <div class="comentarios-texto">
+                        <p><strong>tuctuc</strong> what does the fox say?🤔</p>
+                        <p><small>10 h</small></p>
+                    </div>
+                    <ion-icon class="icone-comentario" name="heart-outline"></ion-icon>
+                </div>
+                <div class="comentarios">
+                    <div class="comentarios-texto">
+                        <p><strong>galilda</strong> até parece gente boa assim 👀</p>
+                        <p><small>1 h</small></p>
+                    </div>
+                    <ion-icon class="icone-comentario" name="heart-outline"></ion-icon>
+                </div>
+
+                <div class="adicione-comentario">
+                    <ion-icon class="icone-input-comentario" name="happy-outline"></ion-icon>
+                    <input class="input-comentario" type="text" placeholder="Adicione um comentário...">
+                    <p class="texto-publicar-comentario"> Publicar </p>
+                </div>
             </div>
+
+            <!-- Post Calopsita -->
             <div class="posts">
                 <div class="titulo-post">
                     <div class="titulo-post-esquerda">
@@ -187,7 +250,22 @@
                     <img class="img-curtido-por" src="imagens/onça.png" alt="frogy">
                     <p>Curtido por <strong> rajada </strong>e <strong>outras 265.046 pessoas</strong></p>
                 </div>
+                <div class="comentarios">
+                    <div class="comentarios-texto">
+                        <p><strong>peninha</strong> arrasou nas cores amiga 🤩 </p>
+                        <p><small>5 h</small></p>
+                    </div>
+                    <ion-icon class="icone-comentario" name="heart-outline"></ion-icon>
+                </div>
+
+                <div class="adicione-comentario">
+                    <ion-icon class="icone-input-comentario" name="happy-outline"></ion-icon>
+                    <input class="input-comentario" type="text" placeholder="Adicione um comentário...">
+                    <p class="texto-publicar-comentario"> Publicar </p>
+                </div>
             </div>
+
+            <!-- Post spaidy -->
             <div class="posts">
                 <div class="titulo-post">
                     <div class="titulo-post-esquerda">
@@ -211,17 +289,41 @@
                     <img class="img-curtido-por" src="imagens/elefante.png" alt="elefante">
                     <p>Curtido por <strong> elefante </strong>e <strong>outras 524.584 pessoas</strong></p>
                 </div>
+                <div class="comentarios">
+                    <div class="comentarios-texto">
+                        <p><strong>marlin</strong> ৹ₒ glub ₒ৹ </p>
+                        <p><small>7 h</small></p>
+                    </div>
+                    <ion-icon class="icone-comentario" name="heart-outline"></ion-icon>
+                </div>
+                <div class="comentarios">
+                    <div class="comentarios-texto">
+                        <p><strong>ashcat</strong> tu conhece o miranha? </p>
+                        <p><small>2 h</small></p>
+                    </div>
+                    <ion-icon class="icone-comentario" name="heart-outline"></ion-icon>
+                </div>
+
+                <div class="adicione-comentario">
+                    <ion-icon class="icone-input-comentario" name="happy-outline"></ion-icon>
+                    <input class="input-comentario" type="text" placeholder="Adicione um comentário...">
+                    <p class="texto-publicar-comentario"> Publicar </p>
+                </div>
             </div>
+
+
+            <!-- Post macaco -->
             <div class="posts">
                 <div class="titulo-post">
                     <div class="titulo-post-esquerda">
                         <img class="img-outros-perfis" src="imagens/macaco.png" alt="macaco">
-                        <p class="texto-post">mamaco</p>
+                        <p class="texto-post">buguildo</p>
                     </div>
                     <ion-icon class="tres-pontos" name="ellipsis-horizontal"></ion-icon>
                 </div>
                 <video class="imagem-do-post" muted autoplay loop>
-                    <source src="video/macacotocandobateria.mp4" type:"video/mp4">
+                    <source src="video/macacotocandobateria.mp4" type="video/mp4">
+                    Desculpe, seu navegador não suportar este tipo de vídeo
                 </video>
                 <div class="icones-reacao">
                     <div class="icones-reacao-esquerda">
@@ -237,9 +339,34 @@
                     <img class="img-curtido-por" src="imagens/fox.png" alt="fox">
                     <p>Curtido por <strong> foxy </strong>e <strong>outras 756.554 pessoas</strong></p>
                 </div>
+                <div class="comentarios">
+                    <div class="comentarios-texto">
+                        <p><strong>godzilla</strong> quem é esse talentoso dançarino?👀 </p>
+                        <p><small>11 h</small></p>
+                    </div>
+                    <ion-icon class="icone-comentario" name="heart-outline"></ion-icon>
+                </div>
+                <div class="comentarios">
+                    <div class="comentarios-texto">
+                        <p><strong>kingkong</strong> nem me chamaram pra festa #bolado </p>
+                        <p><small>1 h</small></p>
+                    </div>
+                    <ion-icon class="icone-comentario" name="heart-outline"></ion-icon>
+                </div>
+
+                <div class="adicione-comentario">
+                    <ion-icon class="icone-input-comentario" name="happy-outline"></ion-icon>
+                    <input class="input-comentario" type="text" placeholder="Adicione um comentário...">
+                    <p class="texto-publicar-comentario"> Publicar </p>
+                </div>
             </div>
+
         </div>
+
+        <!-- Sidebar -->
         <div class="sidebar">
+
+            <!-- Perfil próprio -->
             <div class="perfil">
                 <img class="img-meu-perfil" src="imagens/fotoperfil.png" alt="fotoperfil">
                 <div class="texto-perfil">
@@ -247,7 +374,11 @@
                     <p class="info-perfil">doggo</p>
                 </div>
             </div>
+
+            <!-- Aba de Sugestões -->
             <div class="sugestoes">
+
+                <!-- Texto "Sugestão" e "Ver Tudo" -->
                 <div class="op-img-texto-seguir">
                     <div class="o-perfil">
                         <p class="sugestao-para-voce">Sugestões para Você</p>
@@ -256,11 +387,14 @@
                         <p class="vertudo">Ver Tudo</p>
                     </div>
                 </div>
+
+
                 <div class="op-img-texto-seguir">
+                    <!-- Tucano -->
                     <div class="o-perfil">
-                        <img class="img-outros-perfis" src="imagens/spider.png" alt="fotoperfil">
+                        <img class="img-outros-perfis" src="imagens/tucano.jpg" alt="tucano">
                         <div class="texto-perfil">
-                            <p class="nome-perfil">spaidy</p>
+                            <p class="nome-perfil">tuctuc</p>
                             <p class="info-perfil">Segue Você</p>
                         </div>
                     </div>
@@ -268,11 +402,13 @@
                         <p class="seguir">Seguir</p>
                     </div>
                 </div>
+
+                <!-- Peixe -->
                 <div class="op-img-texto-seguir">
                     <div class="o-perfil">
-                        <img class="img-outros-perfis" src="imagens/fox.png" alt="fotoperfil">
+                        <img class="img-outros-perfis" src="imagens/peixe.png" alt="peixe">
                         <div class="texto-perfil">
-                            <p class="nome-perfil">foxy</p>
+                            <p class="nome-perfil">marlin</p>
                             <p class="info-perfil">Segue Você</p>
                         </div>
                     </div>
@@ -280,11 +416,13 @@
                         <p class="seguir">Seguir</p>
                     </div>
                 </div>
+
+                <!-- Pantera Negra -->
                 <div class="op-img-texto-seguir">
                     <div class="o-perfil">
-                        <img class="img-outros-perfis" src="imagens/frog.png" alt="fotoperfil">
+                        <img class="img-outros-perfis" src="imagens/pantera.png" alt="pantera">
                         <div class="texto-perfil">
-                            <p class="nome-perfil">sapônio</p>
+                            <p class="nome-perfil">bagheera</p>
                             <p class="info-perfil">Segue Você</p>
                         </div>
                     </div>
@@ -292,11 +430,13 @@
                         <p class="seguir">Seguir</p>
                     </div>
                 </div>
+
+                <!-- Pavão -->
                 <div class="op-img-texto-seguir">
                     <div class="o-perfil">
-                        <img class="img-outros-perfis" src="imagens/onça.png" alt="fotoperfil">
+                        <img class="img-outros-perfis" src="imagens/pavão.jpg" alt="pavão">
                         <div class="texto-perfil">
-                            <p class="nome-perfil">rajada</p>
+                            <p class="nome-perfil">peninha</p>
                             <p class="info-perfil">Segue Você</p>
                         </div>
                     </div>
@@ -304,11 +444,13 @@
                         <p class="seguir">Seguir</p>
                     </div>
                 </div>
+
+                <!-- Gato -->
                 <div class="op-img-texto-seguir">
                     <div class="o-perfil">
-                        <img class="img-outros-perfis" src="imagens/calopsita.png" alt="fotoperfil">
+                        <img class="img-outros-perfis" src="imagens/gato.png" alt="gato">
                         <div class="texto-perfil">
-                            <p class="nome-perfil">calopisyus</p>
+                            <p class="nome-perfil">ashcat</p>
                             <p class="info-perfil">Segue Você</p>
                         </div>
                     </div>
@@ -318,16 +460,21 @@
                 </div>
 
             </div>
+
+            <!-- Informações inferiores da Sidebar -->
             <div class="info-siderbar">
                 <p class="info-texto">• Ajuda • Imprensa • API • Carreiras • Privacidade •
                     Termos • Localizações • Contas mais relevantes • Hashtags •
                     Idioma</p>
             </div>
+
             <div class="ano">
                 <p class="info-texto">© 2021 INSTAGRAM DO FACEBOOK</p>
-
             </div>
+
         </div>
+
+        <!-- Barra de navegação mobile -->
         <div class="barra-inferior-mobile">
             <div class="barra-inferior-mobile-icones">
                 <ion-icon class="icones" name="home"></ion-icon>
@@ -338,6 +485,8 @@
             </div>
         </div>
     </div>
+
+    <!-- Script dos Icones -->
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 
 </body>
