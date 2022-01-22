@@ -63,6 +63,7 @@ background-color:  #E5E5E5;
 }
 
 .icones-centro {
+    position: relative;
     width: 215px;
     height: 28px;
     display: flex;
@@ -109,7 +110,15 @@ background-color:  #E5E5E5;
     align-items: center;
 }
 
+.input-pesquisa{
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    width: 95%;
+    border: none;
+    background-color:transparent;
 
+}
 
 /* ------PAGINA TODA------*/
 .pagina {
@@ -133,7 +142,6 @@ background-color:  #E5E5E5;
     width: 614px;
     height: 118px;
     margin-bottom: 24px;
-    /* margin-top: 88px; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -142,7 +150,7 @@ background-color:  #E5E5E5;
 
 .todos-stories {
      position: absolute;
-     width: 599px;
+     width: 597px;
     display: flex;
     left: 15px;
     overflow: hidden;
@@ -393,6 +401,7 @@ background-color:  #E5E5E5;
 }
 .icone-comentario{
     size: 5px;
+    fill: red;
 }
 
 .adicione-comentario{
@@ -405,6 +414,7 @@ background-color:  #E5E5E5;
 }
 .icone-input-comentario{
     font-size: 30px;
+    color: rgb(82, 80, 80);
 }
 
 
