@@ -197,7 +197,6 @@ background-color:  #E5E5E5;
 /* ------SIDEBAR------*/
 .sidebar {
     background-color: red;
-    position: fixed;
     right: 300px;
     width: 293px;
     height: 450px;
