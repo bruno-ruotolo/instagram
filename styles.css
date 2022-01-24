@@ -1,3 +1,4 @@
+/* CORPO */
 body {
 font-family: 'Roboto', sans-serif;
 background-color:  #E5E5E5;
@@ -7,9 +8,7 @@ background-color:  #E5E5E5;
     box-sizing: border-box;
 }
 
-
 /* ------CABEÇALHO------*/
-
 .cabecalho-faixa {
     height: 54px;
     display: flex;
@@ -17,13 +16,12 @@ background-color:  #E5E5E5;
     justify-content: center;
     border-bottom: 1px solid #DBDBDB;
     background-color: #FFFFFF;
-    /* margin-bottom: 34px; */
     width: 100%;  
     position: fixed;
     z-index: 2;
 }
+
 .cabecalho-icones {
-    
     max-width: 944px;
     width: 100vw;
     margin: 0 auto;
@@ -131,10 +129,6 @@ background-color:  #E5E5E5;
     top:88px;
 }
 
-
-
-
-
 /* ------STORIES------*/
 .stories {
     background-color: #FFFFFF;
@@ -149,8 +143,8 @@ background-color:  #E5E5E5;
 }
 
 .todos-stories {
-     position: absolute;
-     width: 597px;
+    position: absolute;
+    width: 597px;
     display: flex;
     left: 15px;
     overflow: hidden;
@@ -170,18 +164,15 @@ background-color:  #E5E5E5;
 .stories-com-texto{
     display: flex;
     flex-direction: column;
-    /* width: fit-content; */
     margin-right: 15px;
     align-items: center;  
 }
-
 
 .texto-stories{
     font-size: 12px;
     font-weight: 400;
     margin-top: 6px;
 }
-
 
 .img-com-background-stories{
     display: flex;
@@ -203,8 +194,6 @@ background-color:  #E5E5E5;
 }
 
 
-
-
 /* ------SIDEBAR------*/
 .sidebar {
     position: sticky;
@@ -213,8 +202,7 @@ background-color:  #E5E5E5;
     height: 450px;
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
-    
+    margin-left: 30px; 
 }
 
 .perfil {
@@ -224,6 +212,7 @@ background-color:  #E5E5E5;
     margin-top: 25px;
 
 }
+
 .img-meu-perfil {
     width: 56px;
     height: 56px;
@@ -310,7 +299,6 @@ background-color:  #E5E5E5;
 /* ------POSTS------*/
 .posts {
     width: 614px;
-    /* height: 749px; */
     display: flex;
     flex-direction: column;
     border: 1px solid #DBDBDB;
@@ -342,7 +330,6 @@ background-color:  #E5E5E5;
     font-weight: 500;
     margin-left: 15px ;
 }
-
 
 .imagem-do-post {
     height: 612px;
@@ -394,11 +381,11 @@ background-color:  #E5E5E5;
     margin-bottom: 10px;
 }
 
-
 .comentarios-texto{
     display: flex;
     justify-content: space-between;
 }
+
 .icone-comentario{
     size: 5px;
     fill: red;
@@ -412,11 +399,11 @@ background-color:  #E5E5E5;
     margin-top: 6px;
     border-top: 1px solid rgb(239, 239, 239);
 }
+
 .icone-input-comentario{
     font-size: 30px;
     color: rgb(82, 80, 80);
 }
-
 
 .input-comentario{
     color:#000000;
@@ -430,7 +417,6 @@ background-color:  #E5E5E5;
 .texto-publicar-comentario{
     color: #B2DFFC;
 }
-
 
 small{
     margin-left: 15px;

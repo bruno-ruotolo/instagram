@@ -1,22 +1,34 @@
-
-
+/* DESKTOP REDUZIDO */
 @media (max-width: 935px){
     .sidebar {
         display: none;
     }
+
     .pagina {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+
     .cabecalho-icones{
         max-width: 95%;
     }
 }
 
+/* MOBILE */
 @media (max-width: 614px){
     .sidebar {
         display: none;
+    }
+
+    .pagina{
+        top:55px;
+    }
+    .stories {
+        background-color: #E5E5E5;
+        margin-bottom: 0;
+        border: none;
+        position: relative;
     }
 
     .icone-botao-passar{
@@ -24,17 +36,23 @@
     }
 
     .barra-inferior-mobile{
-        display: initial;
+        display: flex;
     }
 
     .icones-centro{
         display: none;
     }
-    .icone-mobile{
-        display: initial;
+
+    .icone-mobile-esquerda{
+        display: block;
         position: absolute;
-        right: 9px;
-        
+        left: 9px;   
+    }
+
+    .icone-mobile-direita{
+        display: block;
+        position: absolute;
+        right: 9px;   
     }
 
     .logo-instagram{
@@ -51,6 +69,7 @@
     .linha-separadora{
         display: none;
     }
+    
     .cabecalho-faixa{
         min-width: 614px;
     }
