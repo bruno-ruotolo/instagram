@@ -1,5 +1,5 @@
 # instagram
-Project where the layout of the Globo.com website was redone using CSS and HTML
+Project where the desktop layout of the Instagram.com website was redone using CSS and HTML
 
 <img src="/assets/instagram.gif" />
 
@@ -7,7 +7,7 @@ Try it out at https://bruno-ruotolo.github.io/instagram/
 
 ## About
 
-This is a Application that redo the layout of the news website Globo.com, with some features like:
+This is a Application that redo the layout of the social network Instagram.com, with some features like:
 
 - Mouse Over Effects
 - Inputs Elements 
