@@ -1,7 +1,7 @@
 # instagram
 Project where the desktop layout of the Instagram.com website was redone using CSS and HTML
 
-<img src="/assets/instagram.gif" />
+<img src="/assets/instagram-demo.gif" />
 
 Try it out at https://bruno-ruotolo.github.io/instagram/
 
